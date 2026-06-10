@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CAD資格クイズ</title>
+<meta name="description" content="AutoCAD Certified Professional、Autodesk Certified User、CAD利用技術者試験2級、CAD利用技術者試験1級の対策クイズ。各カテゴリ150問から50問ランダム出題。">
+<link rel="stylesheet" href="style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8398161859137802" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <h1 id="pageTitle">CAD資格クイズ</h1>
+  <p id="pageDesc">4カテゴリ・各150問から50問ランダムで出題</p>
+</header>
+
+<nav id="quizList"></nav>
+
+<main class="layout">
+  <aside class="ad-box left-ad">
+    <p class="ad-label">スポンサーリンク</p>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8398161859137802" data-ad-slot="6325875393" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </aside>
+
+  <section class="quiz-box">
+    <div class="status">
+      <span id="counter"></span>
+      <span id="score"></span>
+    </div>
+    <div class="progress"><div id="progressBar"></div></div>
+    <h2 id="question"></h2>
+    <div id="choices"></div>
+    <p id="result"></p>
+    <button id="nextBtn">次の問題</button>
+  </section>
+
+  <aside class="ad-box right-ad">
+    <p class="ad-label">スポンサーリンク</p>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8398161859137802" data-ad-slot="6325875393" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </aside>
+</main>
+
+<script src="data/cad/autocad-professional.js"></script>
+<script src="data/cad/autodesk-user.js"></script>
+<script src="data/cad/cad-2kyu.js"></script>
+<script src="data/cad/cad-1kyu.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
